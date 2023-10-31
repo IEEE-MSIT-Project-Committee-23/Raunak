@@ -1,0 +1,37 @@
+{
+  "name": "raunak",
+  "version": "1.0.0",
+  "description": "Server for Raunak'23",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IEEE-MSIT-Project-Committee-23/Raunak.git"
+  },
+  "author": "IEEE MSIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IEEE-MSIT-Project-Committee-23/Raunak/issues"
+  },
+  "homepage": "https://github.com/IEEE-MSIT-Project-Committee-23/Raunak#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "js-sha256": "^0.10.1",
+    "mongoose": "^8.0.0",
+    "mongoose-findorcreate": "^4.0.0",
+    "nodemon": "^3.0.1",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-local-mongoose": "^8.0.0",
+    "razorpay": "^2.9.2",
+    "shortid": "^2.2.16"
+  }
+}
