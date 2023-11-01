@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg{
+    background-image: url('/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: '100vh';
+}
+
+.text{
+    color: white;
+}
+
+.main-button{
+    background-color: #391964;
+}
+
+.main-logo{
+    color: #873868;
+}
