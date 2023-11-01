@@ -14,9 +14,34 @@
 }
 
 .main-button{
-    background-color: #391964;
+    color: #391964;
+    background-color:white;
 }
 
 .main-logo{
     color: #873868;
+}
+
+.about{
+    color: white;
+    background-color: #22105c;
+    border: 5px solid #5c1f63;
+    border-radius: 20px;
+}
+
+
+.main-image{
+    height: 350px;
+    width: 700px;
+
+}
+
+.society{
+    background-color: #22105c;
+    border: 5px solid #22105c;
+    border-radius: 20px;
+}
+
+.society-name{
+    color: #5c1f63;
 }
