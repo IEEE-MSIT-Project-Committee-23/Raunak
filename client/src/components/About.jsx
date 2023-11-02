@@ -14,10 +14,14 @@ const About = () =>{
               <button className="main-button ml-4 text-white-700 bg-white-100 border-0 py-2 px-6 focus:outline-none hover:bg-white-200 rounded text-lg font-bold">Get Pass</button>
             </div>
           </div>
-          <div className=" lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mr-6">
-            <img className="main-image object-cover object-center rounded-lg" alt="diya" src="/about2.png"/>
+          <div className="main-image-cont lg:max-w-lg lg:w-full md:w-1/2  mr-6">
+            <img className="main-image h-full w-full object-cover object-center rounded-lg" alt="diya" src="/about2.png"/>
           </div>
         </div>
+
+
+
+
         
   <section id = "about">    
   <div className="container px-5 py-24 mx-auto">

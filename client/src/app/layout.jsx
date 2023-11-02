@@ -1,5 +1,6 @@
 import '../styles/globals.css';
 import Navbar from '../components/common/navbar/index';
+import Footer from '../components/common/footer/index';
 
 export const metadata = {
   title: "Raunak'23",
@@ -14,7 +15,8 @@ export default function RootLayout({
     
       <body>
       <Navbar />
-      {children}</body>
+      {children}
+      <Footer /></body>
     </html>
   )
 }

@@ -45,3 +45,37 @@
 .society-name{
     color: #5c1f63;
 }
+
+@media (max-width: 768px) {
+    .main-image {
+        margin:0;
+      height: 200px;
+      width:300px;
+    }
+   
+  }
+
+
+.header{
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.nav-links a:hover {
+    color: #873868; 
+  }
+
+ul{
+    list-style-type: none;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+}

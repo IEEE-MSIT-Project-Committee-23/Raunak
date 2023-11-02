@@ -5,8 +5,8 @@ const Partners = () =>{
         <div className="mb-10 md:mb-16">
       <h2 className="mb-4 text-center text-2xl font-bold text-white-800 md:mb-6 lg:text-3xl">Organizer</h2>
     </div>
-    <div className="flex flex-col items-center rounded-lg p-4 lg:p-8">
-        <div className="overflow-hidden rounded-full bg-200 shadow-lg md:mb-4 md:h-32 md:w-32">
+    <div className="flex flex-col items-center rounded-lg  bg-100 p-4 lg:p-8">
+        <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-200 shadow-lg md:mb-4 md:h-32 md:w-32">
           <img src="./octave.jpg" loading="lazy" alt="IEEE MSIT" className="h-full w-full object-cover object-center" />
         </div>
         <div className=" text-center font-bold text-500 md:text-lg">Octave MSIT</div>
