@@ -10,7 +10,9 @@ const About = () =>{
               We are delighted to take up this noble cause by showing compassion to those less fortunate and bringing a heartwarming smile
               as beautiful as the beautifully lit lights of Diwali</h2>
           <div className="flex items-end">
-            <button className="main-button  text-white bg-500 border-0 py-2 px-6 focus:outline-none hover:bg-600 rounded text-lg font-bold">Donate</button>
+                       <Link href="/donate" legacyBehavior>
+              <button className="main-button  text-white bg-500 border-0 py-2 px-6 focus:outline-none hover:bg-600 rounded text-lg font-bold">Donate</button>
+            </Link>
             {/* <button className="main-button ml-4 text-white-700 bg-white-100 border-0 py-2 px-6 focus:outline-none hover:bg-white-200 rounded text-lg font-bold">Get Pass</button> */}
           </div>
         </div>
