@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Navbar = () => {
   return (
     <header className="text-white-600 body-font">
@@ -21,5 +20,6 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
+
 
