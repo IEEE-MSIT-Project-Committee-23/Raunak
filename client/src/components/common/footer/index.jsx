@@ -12,9 +12,9 @@ const Footer = () => {
       <div className="md:text-right my-8">
         <p className="my-6 text-2xl font-semibold">Made with 💖 by the IEEE Team</p>
         <div className="flex justify-center md:justify-end">
-          <img className="w-10 mx-2" src="./FooterAssets/Facebook.svg" />
-          <img className="w-10 mx-2" src="./FooterAssets/Instagram.svg" />
-          <img className="w-11 mx-1" src="./FooterAssets/Linkedin.svg" />
+        <a href="#"><img className="w-10 mx-2" src="./FooterAssets/Facebook.svg" /></a>
+          <a href="https://www.instagram.com/reel/CzETCjkCRl7/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="><img className="w-10 mx-2" src="./FooterAssets/Instagram.svg" /></a>
+          <a href="https://www.linkedin.com/posts/octave-music-society_raunak-raunak22-comingsoon-activity-7124371634915790848-FZ0w?utm_source=share&utm_medium=member_desktop"><img className="w-11 mx-1" src="./FooterAssets/Linkedin.svg" /></a>
         </div>
         <p className="my-6">&copy; Copyright. All Rights Reserved</p>
       </div>
