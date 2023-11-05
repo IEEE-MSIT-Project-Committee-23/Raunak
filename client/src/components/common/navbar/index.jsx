@@ -58,7 +58,9 @@ const Navbar = () => {
             </li>
             
           ))}
-          <button className="main-button  text-white bg-500 border-0 py-[0.4rem] px-[1.7rem] focus:outline-none hover:bg-600 rounded text-lg font-bold">Donate</button>
+                <Link href="/donate" legacyBehavior>
+             <button className="main-button  text-white bg-500 border-0 py-[0.4rem] px-[1.7rem] focus:outline-none hover:bg-600 rounded text-lg font-bold">Donate</button></Link>
+         
           {/* <Link href="https://raunak-backend.msit.in/auth/google/callback">
           <button className="main-button ml-4 text-white-700 bg-white-100 border-0 py-[0.4rem] px-6 focus:outline-none hover:bg-white-200 rounded text-lg font-bold">Get Pass</button>
           </Link> */}
