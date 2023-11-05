@@ -45,3 +45,13 @@
 .society-name{
     color: #5c1f63;
 }
+
+@media (max-width: 768px) {
+    .main-image {
+        margin:0;
+      height: 200px;
+      width:300px;
+    }
+   
+  }
+
