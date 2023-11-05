@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="w-full bg-black/50 text-center px-12 flex justify-around flex-col items-center md:flex-row">
+    <div className="w-full bg-black/50 text-center px-12 flex justify-around flex-col items-center md:flex-row" id="contact">
       <img className="w-56 my-8" src="./RaunakLogo.png" />
       <div className=" my-8">
         <p className="text-4xl font-semibold">Organizers</p>

@@ -20,7 +20,7 @@ const Gallery = () => {
     }, []);
 
     return (
-        <section className="w-full bg-black/50 text-center px-12 py-6">
+        <section className="w-full bg-black/50 text-center px-12 py-6" id="gallery">
             <h2 className="my-6 text-2xl font-bold text-white-800 md:mb-6 lg:text-3xl">Gallery</h2>
             <div className="owl-carousel my-6">
                 <div className="item"><img src="./Gallery/img1.jpg" alt="Item 1" /></div>
