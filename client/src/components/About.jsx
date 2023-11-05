@@ -1,3 +1,4 @@
+import Link from 'next/link';
 const About = () =>{
   return (
       <section className="text-white-600 body-font" >
