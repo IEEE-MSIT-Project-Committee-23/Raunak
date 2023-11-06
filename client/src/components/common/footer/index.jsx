@@ -5,9 +5,7 @@ const Footer = () => {
       <div className=" my-8">
         <p className="text-4xl font-semibold">Organizers</p>
         <hr className="h-0.5 bg-white my-2"/>
-        <p className="text-2xl text-gray-300"><span className="font-medium">Bread:</span> 2134768978</p>
-        <p className="text-2xl text-gray-300"><span className="font-medium">Coffee:</span> 2134768978</p>
-        <p className="text-2xl text-gray-300"><span className="font-medium">Sugar:</span> 2134768978</p>
+        <p className="text-2xl text-gray-300"><span className="font-medium">Shubham Sharma: 8448342840</span></p>
       </div>
       <div className="md:text-right my-8">
         <p className="my-6 text-2xl font-semibold">Made with 💖 by the IEEE Team</p>
