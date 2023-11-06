@@ -5,12 +5,19 @@ import Image from 'next/image';
 const centeringContainer = {
   display: 'flex',
   justifyContent: 'center', // Center horizontally
-  marginTop:"2rem"
+  marginTop: '2rem'
+};
+
+const background = {
+  backgroundImage: 'url(/background.jpg)', // Use 'url' as a string
+  backgroundSize: 'cover', // Specify 'cover' as a string
+  backgroundRepeat: 'no-repeat', // Specify 'no-repeat' as a string
+  height: '100vh'
 };
 
 export default function Donate() {
   return (
-    <>
+    <div style={background}>
       <Navbar />
       <div style={centeringContainer}>
         <Image
@@ -20,6 +27,6 @@ export default function Donate() {
           height={300}
         />
       </div>
-    </>
-  )
+    </div>
+  );
 }
