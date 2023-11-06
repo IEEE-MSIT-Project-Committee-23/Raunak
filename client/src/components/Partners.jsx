@@ -18,6 +18,7 @@ const Partners = () =>{
   </div>
   <div className="grid grid-cols-3 gap-4 md:grid-cols-3 lg:grid-cols-3 lg:gap-8">
    
+    <a href ="http://ieee.msit.in" target="__blank">
     <div className="society flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8">
       <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
         <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/opportunity/gallery/61559c2609956_unnamed.png" loading="lazy" alt="IEEE MSIT" className="h-full w-full object-cover object-center" />
@@ -25,6 +26,7 @@ const Partners = () =>{
 
       <div className="society-name text-center font-bold text-500 md:text-lg">IEEE MSIT</div>
     </div>
+    </a>
    
     <div className="society flex flex-col items-center rounded-lg bg-gray-100 p-4 lg:p-8">
       <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-200 shadow-lg md:mb-4 md:h-32 md:w-32">
